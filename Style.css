@@ -1,0 +1,28 @@
+body{
+    font-family: 'Hammersmith One', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 30px;
+}
+.orange-color{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.header{
+    width: 50%;
+    padding-left: 10%;
+}
+.header img{
+    width: 70%;
+}
+.explore_now{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: orangered;
+    padding: 10px, 40px;
+    font-weight: 400;
+    border-radius: 5px;
+}
