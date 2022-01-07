@@ -11,6 +11,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 5%;
 }
 .header{
     width: 50%;
@@ -19,12 +20,91 @@ section{
 .header img{
     width: 70%;
 }
-.explore_now{
+.link_button{
     text-decoration: none;
+    background-image: linear-gradient(rgb(236, 26, 26),tomato);
     color: white;
-    background-color: orangered;
-    font-weight: 400;
-    padding: 10px, 70px;
-    border-radius: 5px;
+    padding: 8px 25px;
+    border-radius: 7px;
+    font-weight: 300px;
     
+}
+.second_pera{
+    width: 100%;
+    text-align: center;
+}
+.small{
+    width: 33%;
+    border-radius: 20px;
+    padding-left: 30px;
+    margin-right: 5%;
+}
+.small img{
+    width: 45%;
+    
+}
+.left_margin{
+    padding-left: 10%;
+}
+p{
+    font-weight: 400;
+}
+.third_pic{
+    width: 40%;
+    margin-left: 10%;
+}
+.third_pic img{
+    width: 85%;
+
+}
+.third_text{
+    width: 70%;
+    padding-right: 10%;
+}
+.third_section{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: 7%;
+    background-position-y: 10%;
+}
+.fourth_text{
+    width: 60%;
+    padding-left: 10%;
+}
+.fourth_pic{
+    width: 40%;
+    /* margin-left: 10%; */
+}
+.fourdn_pic img{
+    width: 85%;
+    
+}
+.fourth_section{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 9%;
+    background-position: 100%;
+    background-position-y: 100%;
+}
+
+#footer-padding{
+    padding-top: 30px;
+    font-family: cursive;
+}
+.footer{
+    text-align: center;
+    background-color:black;
+    height: 130px;
+    
+}
+.span-color{
+    color: rgb(211, 42, 42);}
+    #white{
+        color: white;
+}
+
+.border-color{
+    border-left: 5px solid rgb(236, 16, 53);
+    padding-left: 7px;
 }
